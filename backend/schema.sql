@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS quiz;
+
+CREATE TABLE quiz (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    title TEXT NOT NULL,
+    text TEXT NOT NULL,
+    img TEXT NOT NULL,
+    description TEXT NOT NULL,
+    answer TEXT NOT NULL
+);
